@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "423302573314",
+    "project_id": "healthcamp-8cef2",
+    "storage_bucket": "healthcamp-8cef2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:423302573314:android:23c41de15aba38cb4de61b",
+        "android_client_info": {
+          "package_name": "com.healthcamp.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "423302573314-60kf92vhhmjlstot9s79810ism5iml4l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsal5llvhq3T5Zmd7U5KUQh6RbdCz8YHM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "423302573314-60kf92vhhmjlstot9s79810ism5iml4l.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "423302573314-l11migri8ugu2l4346f2nhbu1dmsf1eg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.healthcamp.firebase"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
