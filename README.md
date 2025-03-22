@@ -1,50 +1,60 @@
-# Welcome to your Expo app 👋
+# MediConnect - Health Camp Expo App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Description
+MediConnect is a mobile application designed to help NGOs, health organizations, and medical students manage free health camps, vaccination drives, and emergency services. The platform enables admins to create, edit, and manage health camps with essential details like location, time, available doctors, ambulances, and more. Users can register for camps and provide feedback after attending.
 
-## Get started
+## Features
+### Admin Panel
+- Admins (NGOs, health students) have personalized dashboards.
+- Add, edit, and delete health camp details.
+- Store camp data in Firebase.
+- Manage health camps with:
+  - Name, geo-location, date, time
+  - Images, ambulances, doctors
+  - Nearby hospitals, registration URLs
 
-1. Install dependencies
+### User Features
+- View upcoming and past health camps.
+- Register for camps.
+- Post complaints or feedback with images.
+- Access emergency services.
 
-   ```bash
+### Tech Stack
+- **Frontend**: React Native (Expo)
+- **Backend**: Firebase (Firestore, Storage, Authentication)
+- **Styling**: Tailwind CSS, Custom UI components
+
+## Installation
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/medi-connect.git
+   cd medi-connect
+   ```
+2. Install dependencies:
+   ```sh
    npm install
    ```
-
-2. Start the app
-
-   ```bash
-    npx expo start
+3. Start the app:
+   ```sh
+   npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+## Firebase Setup
+1. Create a Firebase project in [Firebase Console](https://console.firebase.google.com/).
+2. Enable Firestore, Authentication, and Storage.
+3. Add Firebase config to your project:
+   - Create a `firebaseConfig.js` file in the `src/config` directory.
+   - Paste the Firebase credentials.
+   ```javascript
+   export const firebaseConfig = {
+     apiKey: "YOUR_API_KEY",
+     authDomain: "YOUR_AUTH_DOMAIN",
+     projectId: "YOUR_PROJECT_ID",
+     storageBucket: "YOUR_STORAGE_BUCKET",
+     messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+     appId: "YOUR_APP_ID"
+   };
+   ```
+   
+**MediConnect** - Bringing Healthcare Closer to Communities 🚑
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
