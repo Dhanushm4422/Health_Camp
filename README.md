@@ -27,8 +27,8 @@ MediConnect is a mobile application designed to help NGOs, health organizations,
 ## Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/medi-connect.git
-   cd medi-connect
+   git clone https://github.com/Dhanushm4422/Health_Camp.git
+   cd Health_Camp
    ```
 2. Install dependencies:
    ```sh
